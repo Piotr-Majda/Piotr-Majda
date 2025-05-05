@@ -42,8 +42,35 @@ Experienced Python Developer with 8+ years of expertise building robust librarie
 
 ## Projects
 
-### [AI Investment Advisor](https://github.com/Piotr-Majda/advisor-with-rag) - Microservices RAG Platform (In Development phase before MVP)
+### [IP Geolocation API](https://github.com/Piotr-Majda/ip-geolocation-api) - Enterprise-grade RESTful API with Security Focus
 
+A production-ready geolocation service that provides detailed location data for IP addresses and URLs. The API retrieves, stores, and manages geolocation information with built-in resilience against external service and database failures.
+
+**Key Features:**
+
+- **IP & URL Geolocation**: Retrieve detailed location data including country, city, region, coordinates, and timezone
+- **Data Persistence**: Store and cache geolocation data to reduce external API calls
+- **Fault Tolerance**: Graceful degradation when external services or database connections fail
+- **Rate Limiting**: Protection against excessive requests with configurable thresholds
+- **Comprehensive Documentation**: Interactive API documentation with Swagger UI
+
+**Engineering Excellence:**
+
+- **Domain-Driven Design**: Clear separation of domain, application, and infrastructure layers
+- **Test-Driven Development**: 80%+ test coverage across unit, integration, and API tests
+- **Security-First Approach**: Automated vulnerability scanning and dependency checking
+- **Structured Logging**: JSON-based logging with request tracing and context propagation
+- **CI/CD Automation**: Multi-stage pipeline with linting, security scanning, and test verification
+
+**Technical Implementation:**
+
+- **Modern API Development**: FastAPI with OpenAPI documentation and input validation
+- **Robust Error Handling**: Standardized error responses with detailed logging
+- **Infrastructure Resilience**: Circuit breakers, fallback strategies, and retry mechanisms for external dependencies
+- **DevOps Integration**: Docker containerization with multi-environment configuration
+- **Code Quality Tooling**: Static analysis, type checking, and automated formatting
+
+### [AI Investment Advisor](https://github.com/Piotr-Majda/advisor-with-rag) - Microservices RAG Platform (In Development phase before MVP)
 
 A sophisticated financial advisory platform leveraging AI to analyze documents and provide intelligent investment insights. Built with a modern microservices approach and advanced RAG (Retrieval-Augmented Generation) implementation.
 
