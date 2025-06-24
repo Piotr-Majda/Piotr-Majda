@@ -90,6 +90,25 @@ A sophisticated financial advisory platform leveraging AI to analyze documents a
 - **LLM Integration**: Sophisticated prompt engineering with context management
 - **Stateless Design**: Cloud-provider independent deployment options
 
+### [AI Tester](https://github.com/Piotr-Majda/ai-tester) CLI tool for Automated Log Analysis & Bug Detection Platform
+A developer-focused tool leveraging Large Language Models (LLMs) to analyze application logs, detect bugs, and generate actionable reports. Designed for extensibility and seamless integration into developer workflows, with a modular AI workflow architecture.
+
+**Technical Highlights:**
+
+- **Modular AI Workflow**: Orchestrated with LangGraph for clear, extensible log parsing, analysis, and report generation.
+- **Configurable Log Parsing**: Supports multiple log formats via user-defined regex and structure in YAML config.
+- **Structured Output**: Pydantic models ensure stable, type-safe bug reports and analysis results.
+- **LLM-Driven Analysis**: Integrates with OpenAI and Ollama for advanced log understanding and anomaly detection.
+- **CLI & Extensibility**: Built with Typer for a modern CLI; easily extendable with custom parsers and analyzers.
+
+**Technical Implementation:**
+
+- **Dynamic Log Structure**: Parser adapts to any log format defined in config, supporting rapid onboarding of new log sources.
+- **Separation of Concerns**: Core logic decoupled from CLI/web, enabling future API/web integration.
+- **Containerized Deployment**: Docker support for reproducible, environment-agnostic usage.
+- **Dependency Management**: Utilizes uv for efficient Python dependency handling.
+- **Rich CLI Output**: Optional integration with Rich for enhanced terminal UX.
+
 ### [Job Search App](https://github.com/Piotr-Majda/job_search_app) (Proof of concept and prototype)
 
 A web application designed to streamline the job search process using AI for personalized recommendations.
