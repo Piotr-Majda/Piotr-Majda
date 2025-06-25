@@ -90,7 +90,7 @@ A sophisticated financial advisory platform leveraging AI to analyze documents a
 - **LLM Integration**: Sophisticated prompt engineering with context management
 - **Stateless Design**: Cloud-provider independent deployment options
 
-### [AI Tester](https://github.com/Piotr-Majda/ai_tester) CLI tool for Automated Log Analysis & Bug Detection Platform
+### [AI Tester](https://github.com/Piotr-Majda/ai-tester) CLI tool for Automated Log Analysis & Bug Detection Platform
 A developer-focused tool leveraging Large Language Models (LLMs) to analyze application logs, detect bugs, and generate actionable reports. Designed for extensibility and seamless integration into developer workflows, with a modular AI workflow architecture.
 
 **Technical Highlights:**
